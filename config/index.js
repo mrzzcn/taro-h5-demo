@@ -45,6 +45,7 @@ const config = {
   h5: {
     publicPath: '/taro-h5-demo',
     staticDirectory: 'static',
+    basename: '/taro-h5-demo',
     postcss: {
       autoprefixer: {
         enable: true,
