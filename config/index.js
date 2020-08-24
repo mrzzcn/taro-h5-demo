@@ -43,7 +43,7 @@ const config = {
     }
   },
   h5: {
-    publicPath: '/',
+    publicPath: '/taro-h5-demo',
     staticDirectory: 'static',
     postcss: {
       autoprefixer: {
