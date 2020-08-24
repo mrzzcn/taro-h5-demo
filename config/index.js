@@ -43,7 +43,6 @@ const config = {
     }
   },
   h5: {
-    publicPath: '/taro-h5-demo',
     staticDirectory: 'static',
     postcss: {
       autoprefixer: {
@@ -61,7 +60,6 @@ const config = {
     },
     router: {
       mode: 'browser',
-      basename: '/taro-h5-demo',
       customRoutes: {
         '/pages/index/index': '/',
         '/pages/demo/demo1': '/demo1',
