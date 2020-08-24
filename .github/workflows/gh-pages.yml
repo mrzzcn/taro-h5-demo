@@ -24,8 +24,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm install @tarojs/cli -g
-      - run: npm run build:h5
+      - run: yarn global add @tarojs/cli
+      - run: yarn install
+      - run: yarn build:h5
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
