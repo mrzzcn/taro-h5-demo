@@ -24,6 +24,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
+      - run: npm install @tarojs/cli -g
       - run: npm run build:h5
 
       - name: Deploy
